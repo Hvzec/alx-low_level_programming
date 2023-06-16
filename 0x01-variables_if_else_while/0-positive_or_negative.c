@@ -1,31 +1,23 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
- *main - Positive anything is better than negative nothing
- *
- *Description: This program assigns a random number to the variable n and prints whether the number is positive, negative, or zero.
- *Return: 0 (Success)
+ *main - Determine if number is positive or negative
+ *Description: This program assigns a random num to the variable
+ *Return: Always 0 (Success)
 */
 
 int main(void)
 {
 	int n;
-
-	/* Generate a random number */
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	/* Print the num and its sign */
-	printf("The number %d is ", n);
-
-	if (n > 0)
-		printf("positive\n");
+	if (n ==0)
+		printf("%d is zero\n", n);
 	else if (n < 0)
-		printf("negative\n");
+		printf("%d is negative\n", n);
 	else
-		printf("zero\n");
-
+		printf("%d is positive\n", n);
 	return (0);
 }
