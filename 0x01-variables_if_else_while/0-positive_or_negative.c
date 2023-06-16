@@ -3,11 +3,11 @@
 #include <time.h>
 
 /**
- *main - Determine if number is positive or negative
+ * main - Determine if number is positive or negative
  *
- *Description: This program assigns a random num to the variable
+ * Description: This program assigns a random num to the variable
  *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
