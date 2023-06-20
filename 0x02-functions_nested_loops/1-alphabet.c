@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * p:wq
  * print_alphabet - Prints the alphabet
- * Description: Prints the alphabet in lowercase starting from 'a' and ending with 'z'
+ * Description: alphabet in lowercase starting from 'a' and ending with 'z'
  */
 void print_alphabet(void)
 {
@@ -15,5 +14,5 @@ void print_alphabet(void)
 		_putchar(letter);
 		letter++;
 	}
-	_putchar('\n');
+	_putchar('\n')i
 }
