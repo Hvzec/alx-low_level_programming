@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - Prints the alphabet
- * Description: alphabet in lowercase starting from 'a' and ending with 'z'
+ * Description: alphabet in lowercase starting from 'a' and ending with 'z'.
  */
 void print_alphabet(void)
 {
